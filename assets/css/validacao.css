@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at -16.45% 74.18%, #ffc31a 0, #ffb42b 8.33%, #ffa338 16.67%, #ff9143 25%, #ff7d4b 33.33%, #ff6851 41.67%, #f25353 50%, #d94053 58.33%, #c23054 66.67%, #ae2455 75%, #9d1c56 83.33%, #8e1859 91.67%, #81195d 100%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 14rem;
+    padding: 18px;
+    border-radius: 10px;
+    gap: 3px;
+    
+}
+main h1, label{
+    margin-bottom: 10px;
+}
+.inputCPF{
+    outline: none;
+    border: none;
+    height: 2em;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 80%;
+}
+.validaCPF{
+    font-size: 20px;
+    height: 1.2em;
+}
+.btnVerificar{
+    width: 80%;
+    height: 2em;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    transition: 1s;
+    
+}
+.btnVerificar:hover{
+    background-image: linear-gradient(180deg, #adffff 0, #a4ffff 25%, #9df2f2 50%, #97dade 75%, #92c5cb 100%);
+    cursor: pointer;
+
+}
