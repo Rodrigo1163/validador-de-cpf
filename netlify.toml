@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "validador.html"
+to = "validacaoCPF.html"
 status = 200
